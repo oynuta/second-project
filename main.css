@@ -2,11 +2,37 @@ body{
     background-color: light;
 }
 .box{
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 200px;
     height: 200px;
     display: flex;
     flex-wrap: nowrap;
     border: 1px solid lightpink;
     margin: 2px;
+    animation: anime 2s 0s infinite alternate;
 }
+div {
+    width: 100px;
+    transition: width 2s;
+  }
+  
+  div:hover {
+    width: 300px;
+  
+  }
+  @keyframes anime{
+    from{
+        background-color: azure;
+        width: 200px;
+    }
+    to{
+        background-color: ivory;
+        width: 300px;
+    }
+  }
+  .p{
+
+        font-family: "Times New Roman", Times, serif;
+    
+      
+  }
