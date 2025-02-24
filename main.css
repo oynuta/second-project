@@ -1,0 +1,12 @@
+body{
+    background-color: light;
+}
+.box{
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid lightpink;
+    margin: 2px;
+}
